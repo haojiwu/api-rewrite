@@ -9,7 +9,7 @@ services:
   staticPublishPath: ./static/
   autoDeployFilter:
     paths:
-    - static/[a-
+    - static/*
 - type: web
   name: go-server
   branch: master
